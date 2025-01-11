@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<p class="firstPara">Hello there, {{user.username}}
+    <br><br>
+<a href='{% url "mainApp:logout" %}'>logout</a>
+</p>
+{% endblock content %}
