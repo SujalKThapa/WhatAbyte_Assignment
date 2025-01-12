@@ -1,9 +1,9 @@
 A django based User creation and authentication application.
 <hr>
 <div style="display: flex; gap: 10px;">
-    <img src="https://github.com/user-attachments/assets/9c858097-872d-49ab-a02e-482fc0f3c502" alt="Image 1" style="width: 25%; max-width: 400px;" />
-    <img src="https://github.com/user-attachments/assets/8736d38e-41b6-4c1c-a53b-8f5a71d15440" alt="Image 2" style="width: 25%; max-width: 400px;" />
-    <img src="https://github.com/user-attachments/assets/29ccb306-1c9f-4e08-b461-727feee926c4" alt="Image 2" style="width: 25%; max-width: 400px;" />
+    <img src="https://github.com/user-attachments/assets/9c858097-872d-49ab-a02e-482fc0f3c502" alt="Image 1" style="width: 30%; max-width: 400px;" />
+    <img src="https://github.com/user-attachments/assets/8736d38e-41b6-4c1c-a53b-8f5a71d15440" alt="Image 2" style="width: 30%; max-width: 400px;" />
+    <img src="https://github.com/user-attachments/assets/29ccb306-1c9f-4e08-b461-727feee926c4" alt="Image 2" style="width: 30%; max-width: 400px;" />
 </div>
 <hr>
 <b>Setup and run:</b>
