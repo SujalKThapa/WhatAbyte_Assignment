@@ -6,15 +6,24 @@
     transition: 0.3s all ease-in-out;
 }
 body{
-   display: flex;
+   display: block;
    justify-content: center;
    align-items: center;
    height: 100vh;
    background-color: #fff;
 }
 
+
+.lateral{
+    display: flex;
+    margin-top: 2vh;
+}
+
 .firstPara{
     display: block;
+    width: 25vw;
+    margin-top: 25vh;
+    margin-left: 35vw;
     background-color:whitesmoke;
     border: 2px solid;
     border-color: #10182F;
@@ -22,11 +31,62 @@ body{
     border-radius: 5px;
 }
 
+
+.firstPara2{
+    display: block;
+    width: 35vw;
+    margin-top: 25vh;
+    margin-left: 33vw;
+    background-color:whitesmoke;
+    border: 2px solid;
+    border-color: #10182F;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+
+.firstPara3{
+    display: block;
+    width: 30vw;
+    margin-top: 25vh;
+    margin-left: 33vw;
+    background-color:whitesmoke;
+    border: 2px solid;
+    border-color: #10182F;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.inputEmail{
+    padding: 2px;
+}
+
+.resetBtn{
+    margin-top: 15px;
+    margin-bottom: -10px;
+    padding: 5px;
+    border: 1px solid #10182F;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .shadow-wrap{
     border-radius: 5px;
     padding: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 15vh;
     background-color:#10182F;
 }
+
+
+.shadow-wrap2{
+    border-radius: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 
 .form-wrap{
     background-color: #fff;
@@ -36,6 +96,10 @@ body{
 .form-wrap form *{
     display: block;
     width: 100%;
+}
+
+.newForm input{
+    padding: 2px;   
 }
 
 .form-wrap form label{
@@ -72,9 +136,15 @@ body{
 }
 
 .signup-link{
+    margin-top: 15px;
+    margin-bottom: -10px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
     color: #10182F;
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 13px;
+    font-weight:600;
+    margin-left: 10px;
     text-align: center;
     line-height: 25px;
     display: block;

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="firstPara">
+  <h3>Login </h3>
+ <br>
+<form method="POST" class="newForm">
+ {% csrf_token %}
+ {{form}}
+ <br>
+ <a href='{% url "password_reset" %}'>Forgot Password</a>
+ <div class="lateral">
+ <button type="submit" class="resetBtn">Submit</button>
+ <a class="signup-link" href='{% url "mainApp:authView" %}'>Sign Up</a>
+  </div>
+</form>
+</div>
+{% endblock content %}a

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <h2>Reset Your Password</h2>
+    {% if messages %}
+        <ul>
+        {% for message in messages %}
+            <li class="{% if message.tags %}{{ message.tags }}{% endif %}">{{ message }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    <form method="POST" action=".">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="resetBtn">Reset Password</button>
+    </form>
+</div>
+{% endblock %}
