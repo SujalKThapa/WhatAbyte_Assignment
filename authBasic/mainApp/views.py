@@ -68,9 +68,6 @@ def authView(request):
         form = CustomUserCreationForm()
     return render(request, "registration/signup.html", {"form": form})
 
-
-def resetView(request):
-    return render(request, "resetPassword/enterMail.html", {})
-
-def resetSentView(request):
-    return render(request, "resetPassword/mailSent.html",{})
+@login_required
+def profileView(request):
+    return  render(request, "userProfile.html", {})

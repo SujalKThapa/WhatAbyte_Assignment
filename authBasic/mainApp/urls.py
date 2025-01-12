@@ -1,6 +1,6 @@
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
-from .views import homeView, authView, logoutView
+from .views import homeView, authView, logoutView, profileView
 
 urlpatterns = [
     # Custom views
@@ -8,4 +8,5 @@ urlpatterns = [
     path("signup/", authView, name="authView"),
     path("accounts/logout/", logoutView, name="logout"),
     path("accounts/", include("django.contrib.auth.urls")),
+    path("profile/", profileView, name="profileDashboard")
 ]

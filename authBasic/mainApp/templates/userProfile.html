@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="firstPara3">
+  <h1>User Profile</h1>
+  <br>
+  Name: <b>{{user.username}}</b>
+  <br><br>
+  Email: <b>{{user.email}}</b>
+  <br><br>
+  User Creation Date/Time: <b>{{user.date_joined}}</b>
+  <br><br>
+  <br>
+  <div class="sideButtons">
+        <ul>
+            <li><a href='{% url "mainApp:home" %}'>Go Back &#8617;</a></li>
+            <li><a href='{% url "mainApp:logout" %}'>Log out</a></li>
+        </ul>
+    </div>
+</div>
+{% endblock content %}

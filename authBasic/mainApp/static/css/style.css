@@ -57,6 +57,19 @@ body{
     border-radius: 5px;
 }
 
+
+.firstPara4{
+    display: block;
+    width: 26vw;
+    margin-top: 25vh;
+    margin-left: 35vw;
+    background-color:whitesmoke;
+    border: 2px solid;
+    border-color: #10182F;
+    padding: 25px;
+    border-radius: 5px;
+}
+
 .inputEmail{
     padding: 2px;
 }
@@ -81,10 +94,44 @@ body{
 }
 
 
+.sideButtons li{
+    list-style: none;
+    display: inline;
+    margin-right: 1vw;
+}
+
+.sideButtons a{
+    text-decoration: none;
+    color: #060b1a;
+}
+
+.sideButtons a:hover{
+    color: #56628c;
+}
+
+.sideButtons{
+    margin-bottom: 2vh;
+}
+
+
 .shadow-wrap2{
     border-radius: 5px;
     margin-left: 5vw;
     margin-right: 5vw;
+}
+
+.backBtn button{
+   border-radius: 10px !important;
+   background:#060b1a !important;
+   color: #FFF;
+   cursor: pointer;
+   text-align: center;
+   font-size: 16px;
+   padding: 12px 36px !important;
+   font-weight: 700;
+   border: 1px solid transparent;
+   margin-top: 30px;
+   line-height: 26px; 
 }
 
 
@@ -157,6 +204,12 @@ body{
 
 .form-wrap button:hover{
     background-color: #fff;
+    color: #10182F;
+    border-color: #10182F;
+}
+
+.backBtn button:hover{
+    background-color: #fff !important;
     color: #10182F;
     border-color: #10182F;
 }

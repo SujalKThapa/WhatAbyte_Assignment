@@ -1,7 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
-<p class="firstPara">Hello there, {{user.username}}
+<div class="firstPara4">Hello there, {{user.username}}
     <br><br>
-<a href='{% url "mainApp:logout" %}'>logout</a>
-</p>
+    <div class="sideButtons">
+        <ul>
+            <li><a href='{% url "mainApp:profileDashboard" %}'>Profile dashboard &rarr;</a></li>
+            <li><a href='{% url "password_change" %}'>Change Password &rarr;</a></li>
+        </ul>
+    </div>
+    <a href='{% url "mainApp:logout" %}'>Log Out</a>
+</div>
 {% endblock content %}
